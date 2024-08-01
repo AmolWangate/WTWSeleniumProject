@@ -1,7 +1,12 @@
 package com.wtw.customexception;
 
+/**
+ * @author Amol Wangate
+ * @summary: This class provides custom exception implementation that will be
+ *           thrown in case provided wait type for explicit wait is not valid
+ */
 public class InvalidWaitTypeException extends FrameworkException {
-	
+
 	/**
 	 * 
 	 */

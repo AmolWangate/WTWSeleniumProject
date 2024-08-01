@@ -8,6 +8,10 @@ import org.openqa.selenium.WebDriver;
 import com.wtw.extentreport.ExtentLogger;
 import com.wtw.utils.DriverUtilites;
 
+/**
+ * @author Amol Wangate
+ * @summary This class provides methods to handle different social links tabs
+ */
 public class FooterHelper {
 
 	private WebDriver driver;

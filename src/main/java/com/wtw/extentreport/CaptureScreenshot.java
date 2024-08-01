@@ -6,6 +6,12 @@ import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.model.Media;
 import com.wtw.driverfactory.DriverManager;
 
+/**
+ * @author Amol Wangate
+ * @Summary This class provides implementation for capturing screenshots in
+ *          Base64 format.
+ * 
+ */
 public final class CaptureScreenshot {
 
 	private CaptureScreenshot() {

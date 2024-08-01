@@ -17,6 +17,11 @@ import com.wtw.pompages.ProductsPage;
 import com.wtw.utils.DriverUtilites;
 import static com.wtw.constants.TestConstants.*;
 
+/**
+ * @author Amol Wangate
+ * @summary This class has all related tests for products page scenarios 
+ */
+
 @Listeners(TestListeners.class)
 public class ProductsTests extends BaseClass {
 

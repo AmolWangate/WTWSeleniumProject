@@ -8,6 +8,12 @@ import org.openqa.selenium.support.PageFactory;
 import com.wtw.enums.WaitType;
 import com.wtw.utils.DriverUtilites;
 
+/**
+ * @author Amol Wangate
+ * @summary POM class for storing all locators from hamburger menu page. It
+ *          provides methods to interact with elements on the hamburger menu
+ *          page
+ */
 public class HamburgerMenuPage {
 
 	@FindBy(id = "logout_sidebar_link")

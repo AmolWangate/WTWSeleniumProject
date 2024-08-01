@@ -1,5 +1,11 @@
 package com.wtw.customexception;
 
+/**
+ * @author Amol Wangate
+ * @summary: This class provides custom exception implementation to throw in
+ *           case of any I/O exception
+ * 
+ */
 public class FIFOException extends FrameworkException {
 
 	/**

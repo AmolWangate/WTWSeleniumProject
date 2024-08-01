@@ -12,6 +12,12 @@ import com.wtw.helper.PriceValidation;
 import com.wtw.utils.DriverUtilites;
 import com.wtw.utils.DynamicXpathUtil;
 
+/**
+ * @author Amol Wangate
+ * @summary POM class for storing all locators from products page. It provides
+ *          methods to interact with elements on the products page
+ */
+
 public class ProductsPage {
 
 	@FindBy(id = "react-burger-menu-btn")
@@ -52,7 +58,7 @@ public class ProductsPage {
 		return this;
 	}
 
-	public boolean isAddToCartButtonDisplayed(String productName) {		
+	public boolean isAddToCartButtonDisplayed(String productName) {
 		WebElement addToCartElement = DynamicXpathUtil.getDynamicXpath(btnAddToCart, productName);
 		DriverUtilites.scrollToElement(addToCartElement);
 		return DriverUtilites.isDisplayed(addToCartElement, WaitType.VISIBLE, "Add to cart button for " + productName);

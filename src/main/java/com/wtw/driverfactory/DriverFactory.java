@@ -12,6 +12,13 @@ import com.wtw.enums.BrowserType;
 import com.wtw.enums.RunMode;
 import com.wtw.ownerfactory.PropUtil;
 
+/**
+ * @author Amol Wangate
+ * @summary: This class provides factory implementation for different run modes
+ *           (e.g local or remote i.e. browserstack and deals with quitting
+ *           driver mechanism
+ */
+
 public final class DriverFactory {
 
 	private static final Logger LOG = LogManager.getLogger();

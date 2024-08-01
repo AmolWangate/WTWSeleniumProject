@@ -13,6 +13,10 @@ import com.wtw.ownerfactory.PropUtil;
 import com.wtw.pompages.LoginPage;
 import static com.wtw.constants.TestConstants.*;
 
+/**
+ * @author Amol Wangate
+ * @summary This class has all related tests for login scenarios 
+ */
 @Listeners(TestListeners.class)
 public class LoginTests extends BaseClass {
 

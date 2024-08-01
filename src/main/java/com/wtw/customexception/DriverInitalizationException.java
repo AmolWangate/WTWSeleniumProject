@@ -1,5 +1,12 @@
 package com.wtw.customexception;
 
+/**
+ * @author Amol Wangate
+ * @summary: This class provides custom exception implementation to throw in
+ *           case of any exception occurred during driver initialization
+ * 
+ */
+
 public class DriverInitalizationException extends FrameworkException {
 
 	/**

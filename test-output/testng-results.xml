@@ -1,117 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-01T03:40:05 IST" name="Suite" finished-at="2024-08-01T03:40:33 IST" duration-ms="27808">
+  <suite started-at="2024-08-01T14:42:12 IST" name="Suite" finished-at="2024-08-01T14:42:26 IST" duration-ms="14172">
     <groups>
-      <group name="Regression">
-        <method signature="CheckoutTests.addProductToCartAndCheckout()[pri:0, instance:com.wtw.testcases.CheckoutTests@7d9d0818]" name="addProductToCartAndCheckout" class="com.wtw.testcases.CheckoutTests"/>
-        <method signature="CheckoutTests.multipleScenarioWorkflow()[pri:0, instance:com.wtw.testcases.CheckoutTests@7d9d0818]" name="multipleScenarioWorkflow" class="com.wtw.testcases.CheckoutTests"/>
-        <method signature="ProductsTests.validateRemoveFunctionalityWithPerUser()[pri:0, instance:com.wtw.testcases.ProductsTests@4b013c76]" name="validateRemoveFunctionalityWithPerUser" class="com.wtw.testcases.ProductsTests"/>
-        <method signature="ProductsTests.validateResetAppSateWithBrowserRefresh()[pri:0, instance:com.wtw.testcases.ProductsTests@4b013c76]" name="validateResetAppSateWithBrowserRefresh" class="com.wtw.testcases.ProductsTests"/>
-      </group> <!-- Regression -->
-      <group name="Smoke">
-        <method signature="LoginTests.loginLogoutValidationWithValidCred()[pri:0, instance:com.wtw.testcases.LoginTests@183ec003]" name="loginLogoutValidationWithValidCred" class="com.wtw.testcases.LoginTests"/>
-        <method signature="LoginTests.loginValidationWithInvalidCred()[pri:0, instance:com.wtw.testcases.LoginTests@183ec003]" name="loginValidationWithInvalidCred" class="com.wtw.testcases.LoginTests"/>
-        <method signature="ProductsTests.validateRemoveFunctionalityWithPerUser()[pri:0, instance:com.wtw.testcases.ProductsTests@4b013c76]" name="validateRemoveFunctionalityWithPerUser" class="com.wtw.testcases.ProductsTests"/>
-      </group> <!-- Smoke -->
       <group name="SIT">
         <method signature="FooterTests.validateFooterSocialMediaLinksInFooter()[pri:0, instance:com.wtw.testcases.FooterTests@7c137fd5]" name="validateFooterSocialMediaLinksInFooter" class="com.wtw.testcases.FooterTests"/>
       </group> <!-- SIT -->
     </groups>
-    <test started-at="2024-08-01T03:40:05 IST" name="Test" finished-at="2024-08-01T03:40:33 IST" duration-ms="27808">
-      <class name="com.wtw.testcases.LoginTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.wtw.testcases.LoginTests@183ec003]" started-at="2024-08-01T03:40:05 IST" name="setUp" finished-at="2024-08-01T03:40:10 IST" duration-ms="4559" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginLogoutValidationWithValidCred()[pri:0, instance:com.wtw.testcases.LoginTests@183ec003]" started-at="2024-08-01T03:40:10 IST" name="loginLogoutValidationWithValidCred" description="Successful login and logout - TC01" finished-at="2024-08-01T03:40:12 IST" duration-ms="2245" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginLogoutValidationWithValidCred -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.wtw.testcases.LoginTests@183ec003]" started-at="2024-08-01T03:40:12 IST" name="tearDown" finished-at="2024-08-01T03:40:13 IST" duration-ms="657" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.wtw.testcases.LoginTests@183ec003]" started-at="2024-08-01T03:40:13 IST" name="setUp" finished-at="2024-08-01T03:40:16 IST" duration-ms="2889" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginValidationWithInvalidCred()[pri:0, instance:com.wtw.testcases.LoginTests@183ec003]" started-at="2024-08-01T03:40:16 IST" name="loginValidationWithInvalidCred" description="Failed login - TC02" finished-at="2024-08-01T03:40:16 IST" duration-ms="740" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginValidationWithInvalidCred -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.wtw.testcases.LoginTests@183ec003]" started-at="2024-08-01T03:40:16 IST" name="tearDown" finished-at="2024-08-01T03:40:17 IST" duration-ms="439" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.wtw.testcases.LoginTests -->
-      <class name="com.wtw.testcases.ProductsTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.wtw.testcases.ProductsTests@4b013c76]" started-at="2024-08-01T03:40:05 IST" name="setUp" finished-at="2024-08-01T03:40:09 IST" duration-ms="4298" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.wtw.testcases.ProductsTests@4b013c76]" started-at="2024-08-01T03:40:05 IST" name="setUp" finished-at="2024-08-01T03:40:09 IST" duration-ms="4254" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="validateRemoveFunctionalityWithPerUser()[pri:0, instance:com.wtw.testcases.ProductsTests@4b013c76]" started-at="2024-08-01T03:40:09 IST" name="validateRemoveFunctionalityWithPerUser" description="Performance user - TC06" finished-at="2024-08-01T03:40:22 IST" duration-ms="12846" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateRemoveFunctionalityWithPerUser -->
-        <test-method signature="validateResetAppSateWithBrowserRefresh()[pri:0, instance:com.wtw.testcases.ProductsTests@4b013c76]" started-at="2024-08-01T03:40:09 IST" name="validateResetAppSateWithBrowserRefresh" description="Browser refresh - TC05" finished-at="2024-08-01T03:40:23 IST" duration-ms="13619" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateResetAppSateWithBrowserRefresh -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.wtw.testcases.ProductsTests@4b013c76]" started-at="2024-08-01T03:40:22 IST" name="tearDown" finished-at="2024-08-01T03:40:23 IST" duration-ms="658" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.wtw.testcases.ProductsTests@4b013c76]" started-at="2024-08-01T03:40:23 IST" name="tearDown" finished-at="2024-08-01T03:40:23 IST" duration-ms="368" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.wtw.testcases.ProductsTests -->
+    <test started-at="2024-08-01T14:42:12 IST" name="Test" finished-at="2024-08-01T14:42:26 IST" duration-ms="14172">
       <class name="com.wtw.testcases.FooterTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.wtw.testcases.FooterTests@7c137fd5]" started-at="2024-08-01T03:40:05 IST" name="setUp" finished-at="2024-08-01T03:40:09 IST" duration-ms="3564" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.wtw.testcases.FooterTests@7c137fd5]" started-at="2024-08-01T14:42:12 IST" name="setUp" finished-at="2024-08-01T14:42:17 IST" duration-ms="5520" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateFooterSocialMediaLinksInFooter()[pri:0, instance:com.wtw.testcases.FooterTests@7c137fd5]" started-at="2024-08-01T03:40:09 IST" name="validateFooterSocialMediaLinksInFooter" description="Bonus Test case - TC07" finished-at="2024-08-01T03:40:19 IST" duration-ms="10454" status="PASS">
+        <test-method signature="validateFooterSocialMediaLinksInFooter()[pri:0, instance:com.wtw.testcases.FooterTests@7c137fd5]" started-at="2024-08-01T14:42:17 IST" name="validateFooterSocialMediaLinksInFooter" description="Bonus Test case - TC07" finished-at="2024-08-01T14:42:25 IST" duration-ms="8010" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateFooterSocialMediaLinksInFooter -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.wtw.testcases.FooterTests@7c137fd5]" started-at="2024-08-01T03:40:19 IST" name="tearDown" finished-at="2024-08-01T03:40:20 IST" duration-ms="592" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.wtw.testcases.FooterTests@7c137fd5]" started-at="2024-08-01T14:42:25 IST" name="tearDown" finished-at="2024-08-01T14:42:26 IST" duration-ms="433" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.wtw.testcases.FooterTests -->
-      <class name="com.wtw.testcases.CheckoutTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.wtw.testcases.CheckoutTests@7d9d0818]" started-at="2024-08-01T03:40:17 IST" name="setUp" finished-at="2024-08-01T03:40:19 IST" duration-ms="2251" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="addProductToCartAndCheckout()[pri:0, instance:com.wtw.testcases.CheckoutTests@7d9d0818]" started-at="2024-08-01T03:40:19 IST" name="addProductToCartAndCheckout" description="Error user - TC04" finished-at="2024-08-01T03:40:32 IST" duration-ms="13301" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addProductToCartAndCheckout -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.wtw.testcases.CheckoutTests@7d9d0818]" started-at="2024-08-01T03:40:20 IST" name="setUp" finished-at="2024-08-01T03:40:22 IST" duration-ms="2228" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="multipleScenarioWorkflow()[pri:0, instance:com.wtw.testcases.CheckoutTests@7d9d0818]" started-at="2024-08-01T03:40:22 IST" name="multipleScenarioWorkflow" description="Multiple scenario workflow - TC03" finished-at="2024-08-01T03:40:27 IST" duration-ms="4656" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- multipleScenarioWorkflow -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.wtw.testcases.CheckoutTests@7d9d0818]" started-at="2024-08-01T03:40:27 IST" name="tearDown" finished-at="2024-08-01T03:40:27 IST" duration-ms="400" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.wtw.testcases.CheckoutTests@7d9d0818]" started-at="2024-08-01T03:40:33 IST" name="tearDown" finished-at="2024-08-01T03:40:33 IST" duration-ms="335" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.wtw.testcases.CheckoutTests -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

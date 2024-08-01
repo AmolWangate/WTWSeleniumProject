@@ -9,6 +9,16 @@ import com.wtw.customannotation.TestAnnotation;
 import com.wtw.extentreport.ExtentInitializer;
 import com.wtw.extentreport.ExtentLogger;
 
+/**
+ * @author Amol Wangate
+ * @summary TestNG listener class for managing ExtentReports during test
+ *          execution. This class implements the ISuiteListene and ITestListener
+ *          interfaces to hook into TestNG's test lifecycle events. It uses
+ *          ExtentReports to generate and manage test reports, including
+ *          capturing test results and metadata such as authors and categories
+ *          from TestAnnontation provided on @Test level
+ */
+
 public class TestListeners implements ISuiteListener, ITestListener {
 
 	@Override

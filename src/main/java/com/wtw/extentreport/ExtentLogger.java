@@ -2,6 +2,17 @@ package com.wtw.extentreport;
 
 import com.wtw.ownerfactory.PropUtil;
 
+/**
+ * @author Amol Wangate
+ * @summary This class provides methods for logging different types of messages
+ *          (pass, fail, skip, info) to ExtentReports. It also supports
+ *          conditional screenshot capturing based on the logging level and
+ *          configuration settings. Condition screenshots are driven from
+ *          envconfig.properties file by changing the value of passscreenshot,
+ *          failscreenshot, skipscreenshot, infoscreenshot to true to false as
+ *          required.
+ */
+
 public final class ExtentLogger {
 
 	private ExtentLogger() {

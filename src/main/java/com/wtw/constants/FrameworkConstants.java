@@ -2,9 +2,13 @@ package com.wtw.constants;
 
 import java.io.File;
 
-import org.aeonbits.owner.ConfigFactory;
+import com.wtw.ownerfactory.PropUtil;
 
-import com.wtw.ownerfactory.IPropReader;
+/**
+ * @author Amol Wangate
+ * @summary: This class provides framework related constants and file paths.
+ * 
+ */
 
 public final class FrameworkConstants {
 
@@ -55,7 +59,7 @@ public final class FrameworkConstants {
 	}
 
 	private static String createReportPath() {
-		if (ConfigFactory.create(IPropReader.class).overridereport()) {
+		if (PropUtil.getConfig().overridereport()) {
 			return EXTENT_REPORT_FOLDER_PATH + File.separator + "index.html";
 		} else {
 			return EXTENT_REPORT_FOLDER_PATH + File.separator + System.currentTimeMillis() + File.separator

@@ -2,6 +2,11 @@ package com.wtw.extentreport;
 
 import com.aventstack.extentreports.ExtentTest;
 
+/**
+ * @author Amol Wangate
+ * @summary This class is for managing ExtentTest instances in a thread-safe
+ *          manner during parallel execution
+ */
 public final class ExtentManager {
 
 	private ExtentManager() {
@@ -14,7 +19,7 @@ public final class ExtentManager {
 		tlExtent.set(extentTest);
 	}
 
-	 static synchronized ExtentTest getExtentTest() {
+	static synchronized ExtentTest getExtentTest() {
 		return tlExtent.get();
 	}
 

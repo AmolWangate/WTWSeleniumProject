@@ -10,6 +10,14 @@ import org.openqa.selenium.safari.SafariDriver;
 
 import com.wtw.enums.BrowserType;
 
+/**
+ * @author Amol Wangate
+ * @summary This class implements the IDriver interface to provide WebDriver
+ *          instances for local browsers. The `LocalDriver` class is responsible
+ *          for creating and returning WebDriver instances for different browser
+ *          types running locally on the machine..
+ */
+
 public class LocalDriver implements IDriver {
 
 	private static final Logger LOG = LogManager.getLogger();

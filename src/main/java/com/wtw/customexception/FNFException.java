@@ -1,5 +1,11 @@
 package com.wtw.customexception;
 
+/**
+ * @author Amol Wangate
+ * @summary: This class provides custom exception implementation to throw in
+ *           case file is not found
+ * 
+ */
 public class FNFException extends FrameworkException {
 
 	/**

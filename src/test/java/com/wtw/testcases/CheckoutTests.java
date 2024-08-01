@@ -14,6 +14,12 @@ import com.wtw.objectmanager.ObjectManager;
 import com.wtw.ownerfactory.PropUtil;
 import com.wtw.utils.RandomUtils;
 
+
+/**
+ * @author Amol Wangate
+ * @summary This class has all related tests for checkout scenarios 
+ */
+
 @Listeners(TestListeners.class)
 public class CheckoutTests extends BaseClass {
 

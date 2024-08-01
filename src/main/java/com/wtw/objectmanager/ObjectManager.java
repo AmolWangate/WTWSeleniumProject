@@ -13,6 +13,13 @@ import com.wtw.pompages.HamburgerMenuPage;
 import com.wtw.pompages.LoginPage;
 import com.wtw.pompages.ProductsPage;
 
+/**
+ * @author Amol Wangate
+ * @Summary Manager class for handling page and helper object creation. The
+ *          ObjectManager class provides a centralized way to manage and access
+ *          various page and helper objects used in test automation. It ensures
+ *          that each object is created only once per WebDriver instance.
+ */
 public class ObjectManager {
 
 	private CartPage cartPage;

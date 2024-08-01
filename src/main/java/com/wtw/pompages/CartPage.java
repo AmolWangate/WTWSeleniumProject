@@ -9,6 +9,11 @@ import com.wtw.enums.WaitType;
 import com.wtw.utils.DriverUtilites;
 import com.wtw.utils.DynamicXpathUtil;
 
+/**
+ * @author Amol Wangate
+ * @summary POM class for storing all locators from Cart page. It provides
+ *          methods to interact with elements on the Cart page
+ */
 public class CartPage {
 
 	@FindBy(id = "checkout")

@@ -2,6 +2,11 @@ package com.wtw.utils;
 
 import com.github.javafaker.Faker;
 
+/**
+ * @author Amol Wangate
+ * @summary The FakerUtils class provides static methods for generating various
+ *          types of random data, such as names and addresses.
+ */
 public final class FakerUtils {
 
 	private FakerUtils() {

@@ -14,6 +14,10 @@ import com.wtw.ownerfactory.PropUtil;
 import com.wtw.pompages.ProductsPage;
 import com.wtw.utils.DriverUtilites;
 
+/**
+ * @author Amol Wangate
+ * @summary This class has all related tests for footer scenarios 
+ */
 @Listeners(TestListeners.class)
 public class FooterTests extends BaseClass {
 

@@ -2,6 +2,13 @@ package com.wtw.ownerfactory;
 
 import org.aeonbits.owner.Config;
 
+/**
+ * @author Amol Wangate
+ * @Summart This Configuration interface is for reading property values from
+ *          configuration files. This interface uses the Owners library to load
+ *          and merge property values from multiple configuration files.
+ */
+
 @Config.LoadPolicy(Config.LoadType.MERGE)
 @Config.Sources(value = { "file:${user.dir}/src/test/resources/envconfig.properties",
 		"file:${user.dir}/src/test/resources/logindata.properties",
@@ -53,5 +60,7 @@ public interface IPropReader extends Config {
 	String consoleLogs();
 
 	String seleniumVersion();
+
+	String remoteurl();
 
 }

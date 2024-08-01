@@ -2,6 +2,12 @@ package com.wtw.helper;
 
 import com.wtw.extentreport.ExtentLogger;
 
+/**
+ * @author Amol Wangate
+ * @summary This utility class is for performing assertions in test cases. This
+ *          class provides static methods to perform common assertion operations
+ *          and log the results using ExtentLogger.
+ */
 public final class AssertionUtil {
 
 	private AssertionUtil() {

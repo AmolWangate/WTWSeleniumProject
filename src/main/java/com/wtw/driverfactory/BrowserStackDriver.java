@@ -12,6 +12,15 @@ import com.wtw.customexception.DriverInitalizationException;
 import com.wtw.enums.BrowserType;
 import com.wtw.ownerfactory.PropUtil;
 
+/**
+ * @author Amol Wangate
+ * @summary: This class provides implementation for BrowserStack execution. All
+ *           the capabilities for the same are located in the
+ *           remotecaps.properties file. BrowserStack run is driven from
+ *           envconfig.properties file by changing the mode value to
+ *           browserstack
+ */
+
 public class BrowserStackDriver implements IDriver {
 
 	@Override
@@ -29,7 +38,7 @@ public class BrowserStackDriver implements IDriver {
 		bstackOptions.put("seleniumVersion", PropUtil.getConfig().seleniumVersion());
 		capabilities.setCapability("bstack:options", bstackOptions);
 		try {
-			driver = new RemoteWebDriver(new URL("http://hub.browserstack.com/wd/hub/"), capabilities);
+			driver = new RemoteWebDriver(new URL(PropUtil.getConfig().remoteurl()), capabilities);
 		} catch (MalformedURLException e) {
 			throw new DriverInitalizationException("Driver could not be launched: " + e.getMessage(), e.getCause());
 		}

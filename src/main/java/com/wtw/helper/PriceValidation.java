@@ -8,6 +8,11 @@ import org.openqa.selenium.WebElement;
 
 import com.wtw.extentreport.ExtentLogger;
 
+/**
+ * @author Amol Wangate
+ * @sumary This class verifies that the prices extracted from the given list of
+ *         WebElements are in ascending order
+ */
 public final class PriceValidation {
 
 	private PriceValidation() {

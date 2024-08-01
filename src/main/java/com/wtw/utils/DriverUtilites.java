@@ -9,6 +9,11 @@ import com.wtw.driverfactory.DriverManager;
 import com.wtw.enums.WaitType;
 import com.wtw.extentreport.ExtentLogger;
 
+/**
+ * @author Amol Wangate
+ * @summary This utility class is for providing common actions and interactions
+ *          for WebDriver operations.
+ */
 public final class DriverUtilites {
 
 	private DriverUtilites() {
