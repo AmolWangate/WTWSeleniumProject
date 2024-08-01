@@ -1,8 +1,8 @@
-Introduction
+Introduction: 
 
 This project is a comprehensive test automation framework built using Selenium WebDriver and TestNG. It is designed to efficiently test web applications by leveraging modern tools and practices such as the Page Object Model (POM) design pattern, parallel execution, and cloud-based testing with BrowserStack. Key features include the use of the Owners library, a custom retry analyser for handling flaky tests, and extensive reporting with Extent Reports. The framework also supports advanced customization through custom annotations and exceptions, as well as random data generation using the Faker library. Tests can be executed via command line, integrated into CI/CD pipelines, and are optimized for scalability and maintainability.
 
-Features
+Features:
 •	Selenium WebDriver: For browser automation.
 •	TestNG: For test execution, configuration, and reporting.
 •	Maven: For build and dependency management.
@@ -19,14 +19,14 @@ Features
 •	Extent Reports: For detailed test execution reports.
 •	Configurable Properties: To manage environment-specific settings.
 
-Prerequisites
+Prerequisites: 
 •	Java Development Kit (JDK) 11 or higher
 •	Maven 3.x or higher
 •	An IDE like IntelliJ IDEA or Eclipse
 •	Web browsers
 •	BrowserStack account (if using cloud-based execution)
 
-Setup
+Setup: 
 1.	Clone the repository: git clone https://github.com/AmolWangate/WTWSeleniumProject.git
 2.	Install dependencies: mvn clean install -DskipTests
 3.	Running Tests
@@ -34,10 +34,10 @@ Setup
 •	Using TestNG: Right-click on the testng.xml file in your IDE and select "Run".
 •	Running on BrowserStack: Configure BrowserStack credentials and desired capabilities in the remotecaps.properties and change the mode to browserstack in envconfig.properties
 
-Parallel Execution
+Parallel Execution: 
 Tests can be executed in parallel by configuring the testng.xml file and specifying the parallel attribute at the suite or test level.
 
-Reporting
+Reporting: 
 Extent Reports are generated under the Extent-Report folder. Open the index.html file in a browser to view the detailed test report.
 
 
