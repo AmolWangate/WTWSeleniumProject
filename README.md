@@ -1,6 +1,6 @@
 Introduction
-This project is a comprehensive test automation framework built using Selenium WebDriver and TestNG. It is designed to efficiently test web applications by leveraging modern tools and practices such as the Page Object Model (POM) design pattern, parallel execution, and cloud-based testing with BrowserStack.
-Key features include the use of the Owners library, a custom retry analyser for handling flaky tests, and extensive reporting with Extent Reports. The framework also supports advanced customization through custom annotations and exceptions, as well as random data generation using the Faker library. Tests can be executed via command line, integrated into CI/CD pipelines, and are optimized for scalability and maintainability.
+
+This project is a comprehensive test automation framework built using Selenium WebDriver and TestNG. It is designed to efficiently test web applications by leveraging modern tools and practices such as the Page Object Model (POM) design pattern, parallel execution, and cloud-based testing with BrowserStack. Key features include the use of the Owners library, a custom retry analyser for handling flaky tests, and extensive reporting with Extent Reports. The framework also supports advanced customization through custom annotations and exceptions, as well as random data generation using the Faker library. Tests can be executed via command line, integrated into CI/CD pipelines, and are optimized for scalability and maintainability.
 
 Features
 •	Selenium WebDriver: For browser automation.
