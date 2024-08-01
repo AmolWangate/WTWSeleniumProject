@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.wtw.listeners.TestListeners"></listener>
+		<listener class-name="com.wtw.retryanalyzer.AnnotationTransformer"></listener>
+	</listeners>
+	<test thread-count="4" parallel="methods" name="Test">
+		<groups>
+            <run>
+                <include name=".*"/>
+            </run>
+        </groups>
+		<classes>
+			<class name="com.wtw.testcases.ProductsTests" />
+			<class name="com.wtw.testcases.FooterTests" />
+			<class name="com.wtw.testcases.LoginTests" />
+			<class name="com.wtw.testcases.CheckoutTests" />
+		</classes>
+	</test> 
+</suite>

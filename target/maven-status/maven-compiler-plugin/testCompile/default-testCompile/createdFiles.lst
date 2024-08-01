@@ -1,0 +1,5 @@
+com\wtw\baseclass\BaseClass.class
+com\wtw\testcases\FooterTests.class
+com\wtw\testcases\ProductsTests.class
+com\wtw\testcases\LoginTests.class
+com\wtw\testcases\CheckoutTests.class
